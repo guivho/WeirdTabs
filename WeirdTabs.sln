@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{415E33AE-9993-4D0E-904F-5F0D7FB9B2B2}"
+	ProjectSection(SolutionItems) = preProject
+		README.markdown = README.markdown
+		Expected.png = Expected.png
+		WeirdTabs.png = WeirdTabs.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeirdTabs", "WeirdTabs\WeirdTabs.csproj", "{8CEC1702-1823-4918-B60E-65F7788D82CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Release|iPhone.Build.0 = Release|Any CPU
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{8CEC1702-1823-4918-B60E-65F7788D82CE}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = WeirdTabs\WeirdTabs.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
