@@ -104,7 +104,7 @@ only has three controls:
 
 ### Expected behaviour
 
-[Expected behaviour](expected.png)
+[Expected behaviour](https://github.com/guivho/WeirdTabs/expected.png)
 
 This application should display two multiline text areas with text content
 sitting right at column 0 and row 0.
@@ -118,7 +118,7 @@ without causing any change to the content of the text boxes.
 
 ### Observed behaviour
 
-[Observed behaviour](observed.png)
+[Observed behaviour](https://github.com/guivho/WeirdTabs/observed.png)
 
 The first box displays `Free` as it is supposed to.
 
