@@ -20,6 +20,7 @@ with mod-mono-server4.
 * /Library/Frameworks/Mono.framework/Versions/2.10.8/bin/mono
 * /Library/Frameworks/Mono.framework/Versions/2.10.8/lib/mono/4.0/xsp4.exe
 * /Library/Frameworks/Mono.framework/Versions/2.10.8/lib/mono/4.0/mod-mono-server4.exe
+* Mac OS/X Version 10.7.2
 
 #### Mono
 
