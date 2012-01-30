@@ -4,7 +4,7 @@ Weird tab injection in multiline text boxes
 Summary
 -------
 
-Mono injects two tab characters (i.e. `\\t\\t`) in front of any text displayed
+Mono injects two tab characters (i.e. `\t\t`) in front of any text displayed
 in multiline text boxes that are embedded as content in an `<asp:TableCell>`
 within an `<asp:TableRow>` of an `<asp:Table>`.
 
@@ -124,18 +124,18 @@ The first box displays `Free` as it is supposed to.
 
 The second box displays
 
-    \\t\\tEmbedded
+    \t\tEmbedded
 
 thus displaying two injected tabs in front of the text.
 
-Note that the `\\t` escape sequence shown in this text represents one
+Note that the `\t` escape sequence shown in this text represents one
 single tab character with hex value `x09`.
 
 At every single postback, two more tabs are injected, as in
 
-    \\t\\t\\t\\tEmbedded
-    \\t\\t\\t\\t\\t\\tEmbedded
-    \\t\\t\\t\\t\\t\\t\\t\\tEmbedded, etc.
+    \t\t\t\tEmbedded
+    \t\t\t\t\t\tEmbedded
+    \t\t\t\t\t\t\t\tEmbedded, etc.
 
 
 ### Behaviour on IIS Server
